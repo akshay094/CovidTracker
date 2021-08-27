@@ -17,6 +17,7 @@ body{
 .app_stats{
   display:flex;
   justify-content:space-between;
+  /* justify-content: center; */
   margin:15px;
 }
 

@@ -91,7 +91,7 @@ const App = () => {
         <div className="app_stats">
           <InfoBox
             // onClick={(e) => setCasesType("cases")}
-            title="Covid Cases"
+            title="Cases"
             cases={countryInfo.todayCases}
             total={countryInfo.cases}
           />
