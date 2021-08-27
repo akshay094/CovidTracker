@@ -31,7 +31,7 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    const getCountriesData = async () => {
+    const getCountriesData = () => {
       fetch("https://disease.sh/v3/covid-19/countries")
         .then((response) => response.json())
         .then((data) => {
@@ -112,7 +112,7 @@ const App = () => {
           center={mapCenter}
           zoom={mapZoom}
         /> */}
-        <GuideLines />
+        {/* <GuideLines /> */}
       </div>
       <Card className="app_right">
         <CardContent>
